@@ -1,0 +1,915 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+/*HEADER------------------------------------------------------------------------------------------------------------------------*/
+
+header{
+    position: fixed;
+    top:0px;
+    left:0;
+    width: 100%;
+    height: 70px;
+    padding: 5px 25px;
+    background: #19191a;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    background-image: url("images/logo2.png");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    height: 45px;
+    text-indent: -99999px;
+    width: 45px;
+}
+
+.navbar a{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    position: relative;
+    margin: 10px;
+    font-size:16px;
+    color:white;
+    font-weight:200;
+    text-decoration: none;
+    backface-visibility:hidden;
+    transform: scale(1,1);
+    opacity: 1;
+    transition: transform 0.2s, opacity 0.2s;
+
+    @media (max-width: 767px){
+        display: none;
+    }
+}
+
+.navbar a:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.navbar a::before{
+    display: block;
+    content:'';
+    transform: scaleX(0);
+    transition: transform 250ms ease;
+    top: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2.7px;
+    background: #d83013;
+    transition: transform 250ms ease;
+}
+
+.navbar a:hover::before{
+    transform: scaleX(1);
+    width:100%;
+}
+
+/*HAMBURGER MENU------------------------------------------------------------------------------------------------------------------------*/
+
+.hamburger{
+    position: relative;
+    display: block;
+    width: 40px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before{
+    content: '';
+    display: block;
+    width:100%;
+    height: 3px;
+    background-color: white;
+    margin: 6px 6px;
+    transition: 0.3s;
+}
+
+.hamburger.is-active:before{
+    transform: rotate(-45deg) translate(-5px, 4px);
+}
+
+.hamburger.is-active:after{
+    transform: rotate(45deg) translate(-8px,-8px);
+}
+
+.hamburger.is-active .bar{
+    opacity:0;
+}
+
+.mobile-nav{
+    position: fixed;
+    top:0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    z-index:98;
+    background: rgba(25, 25, 25, 0.8);
+    padding-top: 120px;
+    transition: 0.3s;
+}
+
+.mobile-nav.is-active{
+    left:0;
+}
+
+.mobile-nav a{
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    max-width: max-content;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    backface-visibility:hidden;
+    transform: scale(1,1);
+    opacity: 1;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+
+.mobile-nav a:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.mobile-nav a::before{
+    display: block;
+    content:'';
+    transform: scaleX(0);
+    transition: transform 250ms ease;
+    top: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2.7px;
+    background: #d83013;
+    transition: transform 250ms ease;
+}
+
+.mobile-nav a:hover::before{
+    transform: scaleX(1.0);
+    width:100%;
+}
+
+@media(min-width: 768px){
+    .mobile-nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: none;
+    }
+}
+
+/* INTRO------------------------------------------------------------------------------------------------*/
+
+.intro {
+    background: linear-gradient(rgba(0, 0, 1, 0.9), rgba(0, 0, 0, 0.4)),
+    url("images/intro.jpeg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 190px;
+    padding-bottom: 80px;
+}
+
+.title{
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size:60px;
+    padding-left: 15%;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+
+
+@media (max-width: 767px){
+    .title {
+        font-size: 35px;
+    }
+}
+
+.subtitle{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15%;
+    font-size:large;
+    line-height: 27px;
+    padding-right:15%;
+}
+
+.first{
+    display:inline;
+}
+
+
+.firstLogo{
+    color:white;
+    background-image: url("images/firstLogo.png");
+    background-size:200px;
+    height: 138px;
+    text-indent:-999999px;
+    width:200px;
+    margin-left: 15%;
+    margin-right:40%;
+    margin-top: 40%;
+    margin-bottom: 24px;
+}
+
+.aboutFIRST{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+    line-height: 25px;
+    margin-left: 15%;
+    margin-right: 120px;
+   
+
+
+}
+
+
+
+/*HOME PAGE------------------------------------------------------------------------------------------------------------------------*/
+
+.about{
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("images/writing.jpeg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 170px;
+    padding-bottom: 200px;
+}
+
+.h{
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size:40px;
+    padding-left: 10%;
+    padding-bottom: 5px;
+    padding-top:60px;
+}
+
+.st{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    padding-top:5px;
+    padding-right: 120px;
+    line-height: 27px;
+}
+
+
+.teamSay{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("images/teamSay.jpeg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 170px;
+    padding-bottom: 200px;
+
+    @media (max-width: 767px){
+        .subGreg{
+            padding-left: 50px;
+        }
+
+        .subTabitha{
+            padding-right:50px;
+        }
+
+        .subAnabel{
+            padding-left:50px;
+        }
+
+        .subAram{
+            padding-right:50px;
+        }
+
+        .greg, .tabitha, .anabel, .aram {
+            float: right;
+            padding-right: 70px;
+        }
+     }
+}
+
+
+.subGreg{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+    padding-left: 500px;
+    padding-bottom: 5px;
+    padding-top:40px;
+    padding-right: 120px;
+    line-height: 27px;
+    text-align:center;
+    font-style:italic;
+
+}
+
+.greg{
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size:25px;
+    padding-left:70%;
+    padding-bottom: 0px;
+    padding-top:5px;
+}
+
+
+.subTabitha{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+    padding-left: 120px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    padding-right: 60%;
+    line-height: 27px;
+    text-align:center;
+    font-style:italic;
+}
+
+.tabitha{
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size:25px;
+    padding-left:20%;
+    padding-bottom: 0px;
+    padding-top:5px;
+}
+
+.subAnabel{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+    padding-left: 500px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    padding-right: 120px;
+    line-height: 27px;
+    text-align:center;
+    font-style:italic;
+
+}
+
+.anabel{
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size:25px;
+    padding-left:70%;
+    padding-bottom: 0px;
+    padding-top:5px;
+}
+
+.subAram{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+    padding-left: 120px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    padding-right: 60%;
+    line-height: 27px;
+    text-align:center;
+    font-style:italic;
+}
+
+.aram{
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size:25px;
+    padding-left:20%;
+    padding-bottom: 0px;
+    padding-top:5px;
+}
+
+
+
+
+
+/*FOOTER------------------------------------------------------------------------------------------------------------------------*/
+
+.footer {
+    background:black;
+    width: 100%;
+    color: white;
+    padding-top: 70px;
+    padding-bottom:70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .col-1, .col-2, .col-3 {
+        width: 100vw;
+        margin-left: -10%;
+    }
+
+    .mobile-ljhsLogo {
+        transform: translateX(10px);
+    }
+}
+
+
+
+.footer div{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    line-height:25px;
+    margin-bottom: 27px;
+}
+
+.footer div h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-bottom:20px;
+}
+
+.col-1 a{
+    display:block;
+    text-decoration:none;
+    color:white;
+}
+
+.col-1 a:hover{
+    text-decoration: underline;
+}
+
+.col-2{
+    display:flexbox;
+    flex-grow:1;
+}
+
+.col-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col-2 a:hover{
+    text-decoration: underline;
+}
+
+.col-2 p{
+    line-height:25px;
+
+}
+
+.instagramLogo {
+    background-image: url("images/instagram.png");
+    background-size:30px;
+    display: block;
+    height: 30px;
+    text-indent: 35px;
+    width:30px;
+    margin-left:40%;
+}
+
+.gitHubLogo {
+    background-image: url("images/github.png");
+    background-size:30px;
+    display: block;
+    height: 30px;
+    text-indent: 35px;
+    width:30px;
+    margin-left:40%;
+}
+
+.col-3 a{
+    color:white;
+    text-decoration: none;
+}
+
+.col-3 a:hover{
+    text-decoration:underline;
+}
+
+
+.ljhsLogo{
+    background-image: url("images/ljhslogo2.png");
+    background-size:120px;
+    display: inline-block;
+    height: 120px;
+    text-indent: -99999px;
+    width:110px;
+    margin-top: 20px;
+
+    @media (max-width: 767px){
+        display: none;
+    }
+}
+
+.mobile-ljhsLogo{
+    color:red;
+    padding-top:20%;
+    background-image: url("images/ljhslogo2.png");
+    background-size:150px;
+    display:block;
+    height: 150px;
+    text-indent: -99999px;
+    width:150px;
+    margin-top: 60px;
+    margin: auto;
+
+    @media (min-width: 768px){
+        display: none;
+    }
+}
+
+
+
+/*SPONSORSHIP PAGE------------------------------------------------------------------------------------------------------------------------*/
+
+.introSponsor{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url("images/sponsor.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 190px;
+    padding-bottom: 80px;
+}
+
+
+.sponsor{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url("images/teamSay.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.h-centered{
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size:40px;
+    padding-bottom: 5px;
+    padding-top:50px;
+    text-align:center;
+}
+
+
+.sponsorList{
+    color: white;
+    text-align: center;
+}
+
+.NASA{
+    color:white;
+    background-image: url("images/sponsorslogo/nasalogo.png");
+    background-size:250px;
+    display:inline-block;
+    text-indent: -99999px;
+    width:250px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.qualcomm{
+    color:white;
+    background-image: url("images/sponsorslogo/qualcommlogo.png");
+    background-size:300px;
+    display:inline-block;
+    text-indent: -99999px;
+    width:300px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.lockheed{
+    color:white;
+    background-image: url("images/sponsorslogo/lockheedlogo.png");
+    background-size:250px;
+    display:inline-block;
+    text-indent: -99999px;
+    width:250px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.costco{
+    color:white;
+    background-image: url("images/sponsorslogo/costcologo.png");
+    background-size:250px;
+    display:inline-block;
+    text-indent: -99999px;
+    width:250px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.kiwanis{
+    color:white;
+    background-image: url("images/sponsorslogo/kiwanislogo.png");
+    background-size:250px;
+    display:inline-block;
+    text-indent: -99999px;
+    width:250px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.errorFree{
+    color:white;
+    background-image: url("images/sponsorslogo/freelogo2.png");
+    background-size:250px;
+    display:inline-block;
+    text-indent: -99999px;
+    width:250px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.synopsys{
+    color:white;
+    background-image: url("images/sponsorslogo/synopsyslogo.png");
+    background-size:250px;
+    display:inline-block;
+    text-indent: -99999px;
+    width:250px;
+    height: 50px;
+    margin-top: 50px;
+  
+}
+
+.bcSponsor{
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("images/working.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+
+.subBcSponsor{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:large;
+    padding-bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top:5px;
+    line-height: 27px;
+    text-align:center;
+}
+
+.donateButton{
+    padding: 15px;
+    background: rgb(173, 36, 36);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 25px;
+    margin-left: 43%;
+}
+
+/*CONTACT PAGE------------------------------------------------------------------------------------------------------------------------*/
+.introContact{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url("images/teamSay.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 190px;
+    padding-bottom: 80px;
+}
+
+.contact{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/teamSay.jpeg");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+form{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+}
+
+form h3{
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+form input, form textarea{
+    border: none;
+    border-left: 2px solid tomato;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: #19191a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+}
+
+form button{
+    padding: 15px;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    color: tomato;
+    font-size: 18px;
+    border: 2px solid tomato;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+
+form button:hover {
+    background-color: tomato;
+    color: white;
+}
+
+
+
+/*RESOURCES PAGE------------------------------------------------------------------------------------------------------------------------*/
+.introResources{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url("images/resources.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 190px;
+    padding-bottom: 80px;
+}
+
+
+.resources{
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("images/writing.jpeg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 170px;
+    padding-bottom: 200px;
+}
+
+.resources button{
+    padding: 15px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    color: tomato;
+    font-size: 18px;
+    border: 2px solid tomato;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    margin-left: 10%;
+    transition: 0.3s all;
+}
+
+.resources button:hover {
+    background-color: tomato;
+    color: white;
+}
+
+
+/*OUTREACH PAGE------------------------------------------------------------------------------------------------------------------------*/
+.introOutreach{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url("images/outreach.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 190px;
+    padding-bottom: 80px;
+}
+
+
+
+.subArt_WinePic{
+    color:white;
+    background-image: url("images/art&wine.jpeg");
+    background-size:300px;
+    display: inline-block;
+    text-indent: -9999px;
+    width:300px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left:10%;
+    border-radius: 5px;
+
+    @media (max-width: 767px){
+        background-size: 200px;
+        width:200px;
+        height: 200px;
+    }
+}
+
+.subArt_WinePic2{
+    color:white;
+    background-image: url("images/art&wine2.jpeg");
+    background-size:400px;
+    display: inline-block;
+    text-indent: -9999px;
+    width:400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left:10%;
+    border-radius: 5px;
+
+    @media (max-width: 767px){
+        background-size: 200px;
+        width:200px;
+        height: 150px;
+    }
+}
+
+
+.FTCPic{
+    color:white;
+    background-image: url("images/ftc.jpeg");
+    background-size:400px;
+    display:inline-block;
+    text-indent: -9999px;
+    width:400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left:10%;
+    border-radius: 5px;
+
+    @media (max-width: 767px){
+        background-size: 200px;
+        width:200px;
+        height: 100px;
+    }
+}
+
+
+.presPic{
+    color:white;
+    background-image: url("images/presentations.JPG");
+    background-size:400px;
+    display:inline-block;
+    text-indent: -9999px;
+    width:400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left:10%;
+    border-radius: 5px;
+
+    @media (max-width: 767px){
+        background-size: 200px;
+        width:200px;
+        height: 100px;
+    }
+}
+
+
+/*ABOUT PAGE------------------------------------------------------------------------------------------------------------------------*/
+.introAbout{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url("images/resources.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 190px;
+    padding-bottom: 80px;
+}
+
+
+
+
