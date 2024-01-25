@@ -196,6 +196,15 @@ header{
     padding-left:15%;
 }
 
+.goDownBtn i {
+    transition: 0.2s linear all;
+}
+
+.goDownBtn i:hover {
+    color: red !important;
+    transform: scale(1.05);
+}
+
 .title{
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
