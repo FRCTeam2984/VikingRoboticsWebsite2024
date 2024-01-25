@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 
+
 /*HEADER------------------------------------------------------------------------------------------------------------------------*/
 
 header{
@@ -187,6 +188,14 @@ header{
     padding-bottom: 80px;
 }
 
+.goDownBtn{
+    width:50px;
+    height:50px;
+    color: white;
+    font-size: 90px;
+    padding-left:15%;
+}
+
 .title{
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -254,6 +263,7 @@ header{
     padding-top: 170px;
     padding-bottom: 200px;
 }
+
 
 .h{
     color:white;
@@ -861,7 +871,26 @@ form button:hover {
 
 .FTCPic{
     color:white;
-    background-image: url("images/ftc.jpeg");
+    background-image: url("images/ftcpic3.png");
+    background-size:400px;
+    display:inline-block;
+    text-indent: -9999px;
+    width:400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left:10%;
+    border-radius: 5px;
+
+    @media (max-width: 767px){
+        background-size: 200px;
+        width:200px;
+        height: 100px;
+    }
+}
+
+.FTCPic2{
+    color:white;
+    background-image: url("images/ftc\ pic.png");
     background-size:400px;
     display:inline-block;
     text-indent: -9999px;
@@ -877,7 +906,6 @@ form button:hover {
         height: 100px;
     }
 }
-
 
 .presPic{
     color:white;
