@@ -6,3 +6,9 @@ $(function(){
         $(".mobile-nav").toggleClass('is-active');
     });
 });
+
+function scrollDown(className) {
+    const about_page = document.querySelector(className);
+    about_page.scrollIntoView();
+
+}
