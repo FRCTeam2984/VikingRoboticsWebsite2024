@@ -466,6 +466,7 @@ header{
     display:block;
     text-decoration:none;
     color:white;
+    line-height: 40px;
 }
 
 .col-1 a:hover{
@@ -483,33 +484,34 @@ header{
 }
 
 .col-2 a:hover{
-    text-decoration: underline;
+    color:  #e64646;
 }
 
 .col-2 p{
     line-height:25px;
-
 }
 
-.instagramLogo {
-    background-image: url("images/instagram.png");
-    background-size:30px;
-    display: block;
-    height: 30px;
-    text-indent: 35px;
-    width:30px;
-    margin-left:40%;
+
+.instagramLogo i{
+    font-size:40px;
+    transition: 0.1s linear all;
 }
 
-.gitHubLogo {
-    background-image: url("images/github.png");
-    background-size:30px;
-    display: block;
-    height: 30px;
-    text-indent: 35px;
-    width:30px;
-    margin-left:40%;
+.instagramLogo i:hover {
+    color:  #e64646;
+    transform: scale(1.05);
 }
+
+.gitHubLogo i{
+    font-size:40px;
+    transition: 0.1s linear all;
+}
+
+.gitHubLogo i:hover {
+    color:  #e64646;
+    transform: scale(1.05);
+}
+
 
 .col-3 a{
     color:white;
@@ -670,6 +672,19 @@ header{
   
 }
 
+.rsg{
+    color:white;
+    background-image: url("images/sponsorslogo/RSGLogo.webp");
+    background-size:250px;
+    display:inline-block;
+    text-indent: -99999px;
+    width:250px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 20px;
+  
+}
+
 .bcSponsor{
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("images/working.jpg") no-repeat;
@@ -706,6 +721,14 @@ header{
     border-radius: 25px;
     margin-left: 43%;
 }
+
+.donateButton:hover {
+    background-color: rgb(228, 78, 52);
+    transform: scale(1.1);
+    transition: transform 250ms ease;
+}
+
+
 
 /*CONTACT PAGE------------------------------------------------------------------------------------------------------------------------*/
 .introContact{
@@ -899,11 +922,11 @@ form button:hover {
 
 .FTCPic2{
     color:white;
-    background-image: url("images/ftc\ pic.png");
-    background-size:400px;
+    background-image: url("images/ftc2.jpg");
+    background-size:500px;
     display:inline-block;
     text-indent: -9999px;
-    width:400px;
+    width:500px;
     height: 200px;
     margin-top: 50px;
     margin-left:10%;
@@ -918,7 +941,7 @@ form button:hover {
 
 .presPic{
     color:white;
-    background-image: url("images/presentations.JPG");
+    background-image: url("images/");
     background-size:400px;
     display:inline-block;
     text-indent: -9999px;
