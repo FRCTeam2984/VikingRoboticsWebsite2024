@@ -904,10 +904,10 @@ form button:hover {
 .FTCPic{
     color:white;
     background-image: url("images/ftcpic3.png");
-    background-size:400px;
+    background-size: 400px;
     display:inline-block;
     text-indent: -9999px;
-    width:400px;
+    width: 400px;
     height: 300px;
     margin-top: 50px;
     margin-left:10%;
@@ -915,7 +915,7 @@ form button:hover {
 
     @media (max-width: 767px){
         background-size: 200px;
-        width:200px;
+        width: 200px;
         height: 100px;
     }
 }
@@ -923,10 +923,10 @@ form button:hover {
 .FTCPic2{
     color:white;
     background-image: url("images/ftc2.jpg");
-    background-size:500px;
+    background-size: 500px;
     display:inline-block;
     text-indent: -9999px;
-    width:500px;
+    width: 500px;
     height: 200px;
     margin-top: 50px;
     margin-left:10%;
@@ -934,12 +934,72 @@ form button:hover {
 
     @media (max-width: 767px){
         background-size: 200px;
-        width:200px;
+        width: 200px;
         height: 100px;
     }
 }
 
-.presPic{
+.RifordPic{
+    color:white;
+    background-image: url("images/rifordLib.jpg");
+    background-size: 400px;
+    display:inline-block;
+    text-indent: -9999px;
+    /* 1600 x 1200, or 4:3 ratio for image*/
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10%;
+    border-radius: 5px;
+
+    @media (max-width: 767px){
+        background-size: 200px;
+        width: 200px;
+        height: 100px;
+    }
+}
+
+.RifordPic2{
+    color:white;
+    background-image: url("images/rifordLib2.jpg");
+    background-size: 225px;
+    display:inline-block;
+    text-indent: -9999px;
+    /* 1200 x 1600, or 3:4 ratio for image*/
+    width: 225px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10%;
+    border-radius: 5px;
+
+    @media (max-width: 767px){
+        background-size: 200px;
+        width: 200px;
+        height: 100px;
+    }
+}
+
+.RifordPic3{
+    color:white;
+    background-image: url("images/rifordLib3.jpg");
+    background-size: 225px;
+    display:inline-block;
+    text-indent: -9999px;
+    /* 1200 x 1600, or 3:4 ratio for image*/
+    width: 225px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10%;
+    border-radius: 5px;
+
+    @media (max-width: 767px){
+        background-size: 200px;
+        width: 200px;
+        height: 100px;
+    }
+}
+
+/* .presPic{
     color:white;
     background-image: url("images/");
     background-size:400px;
@@ -956,7 +1016,7 @@ form button:hover {
         width:200px;
         height: 100px;
     }
-}
+} */
 
 
 /*ABOUT PAGE------------------------------------------------------------------------------------------------------------------------*/
