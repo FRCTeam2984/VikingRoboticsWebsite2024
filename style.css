@@ -259,6 +259,8 @@ header{
 
 .aboutFIRST a:hover {
     color: red;
+    margin-left: none !important;
+    margin-right: none !important;
 }
 
 
