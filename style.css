@@ -262,6 +262,145 @@ header{
 }
 
 
+
+
+/*FOOTER------------------------------------------------------------------------------------------------------------------------*/
+
+.footer {
+    background:black;
+    width: 100%;
+    color: white;
+    padding-top: 70px;
+    padding-bottom:70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .col-1, .col-2, .col-3 {
+        width: 100vw;
+        margin-left: -10%;
+    }
+
+    .mobile-ljhsLogo {
+        transform: translateX(10px);
+    }
+}
+
+
+
+.footer div{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    line-height:25px;
+    margin-bottom: 27px;
+}
+
+.footer div h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-bottom:20px;
+}
+
+.col-1 a{
+    display:block;
+    text-decoration:none;
+    color:white;
+    line-height: 40px;
+}
+
+.col-1 a:hover{
+    /* text-decoration: underline; */
+    color:  #e64646;
+}
+
+.col-2{
+    display:flexbox;
+    flex-grow:1;
+}
+
+.col-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col-2 a:hover{
+    color:  #e64646;
+}
+
+.col-2 p{
+    line-height:25px;
+}
+
+.col-3 a{
+    color:white;
+    text-decoration: none;
+}
+
+.col-3 a:hover{
+    /* text-decoration:underline; */
+    color:  #e64646;
+}
+
+.instagramLogo i{
+    font-size:40px;
+    transition: 0.1s linear all;
+}
+
+.instagramLogo i:hover {
+    color:  #e64646;
+    transform: scale(1.05);
+}
+
+.gitHubLogo i{
+    font-size:40px;
+    transition: 0.1s linear all;
+}
+
+.gitHubLogo i:hover {
+    color:  #e64646;
+    transform: scale(1.05);
+}
+
+.ljhsLogo{
+    background-image: url("images/ljhslogo2.png");
+    background-size:120px;
+    display: inline-block;
+    height: 120px;
+    text-indent: -99999px;
+    width:110px;
+    margin-top: 20px;
+
+    @media (max-width: 767px){
+        display: none;
+    }
+}
+
+.mobile-ljhsLogo{
+    color:red;
+    padding-top:20%;
+    background-image: url("images/ljhslogo2.png");
+    background-size:150px;
+    display:block;
+    height: 150px;
+    text-indent: -99999px;
+    width:150px;
+    margin-top: 60px;
+    margin: auto;
+
+    @media (min-width: 768px){
+        display: none;
+    }
+}
+
+
+
+
+/* pages */
+
+
+
 /*HOME PAGE------------------------------------------------------------------------------------------------------------------------*/
 
 .about{
@@ -419,139 +558,6 @@ header{
     padding-top:5px;
 }
 
-
-
-
-
-/*FOOTER------------------------------------------------------------------------------------------------------------------------*/
-
-.footer {
-    background:black;
-    width: 100%;
-    color: white;
-    padding-top: 70px;
-    padding-bottom:70px;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 768px) {
-    .col-1, .col-2, .col-3 {
-        width: 100vw;
-        margin-left: -10%;
-    }
-
-    .mobile-ljhsLogo {
-        transform: translateX(10px);
-    }
-}
-
-
-
-.footer div{
-    text-align:center;
-    font-family: 'Roboto', sans-serif;
-    line-height:25px;
-    margin-bottom: 27px;
-}
-
-.footer div h2{
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    margin-bottom:20px;
-}
-
-.col-1 a{
-    display:block;
-    text-decoration:none;
-    color:white;
-    line-height: 40px;
-}
-
-.col-1 a:hover{
-    /* text-decoration: underline; */
-    color:  #e64646;
-}
-
-.col-2{
-    display:flexbox;
-    flex-grow:1;
-}
-
-.col-2 a{
-    text-decoration: none;
-    color: white;
-}
-
-.col-2 a:hover{
-    color:  #e64646;
-}
-
-.col-2 p{
-    line-height:25px;
-}
-
-.col-3 a{
-    color:white;
-    text-decoration: none;
-}
-
-.col-3 a:hover{
-    /* text-decoration:underline; */
-    color:  #e64646;
-}
-
-.instagramLogo i{
-    font-size:40px;
-    transition: 0.1s linear all;
-}
-
-.instagramLogo i:hover {
-    color:  #e64646;
-    transform: scale(1.05);
-}
-
-.gitHubLogo i{
-    font-size:40px;
-    transition: 0.1s linear all;
-}
-
-.gitHubLogo i:hover {
-    color:  #e64646;
-    transform: scale(1.05);
-}
-
-.ljhsLogo{
-    background-image: url("images/ljhslogo2.png");
-    background-size:120px;
-    display: inline-block;
-    height: 120px;
-    text-indent: -99999px;
-    width:110px;
-    margin-top: 20px;
-
-    @media (max-width: 767px){
-        display: none;
-    }
-}
-
-.mobile-ljhsLogo{
-    color:red;
-    padding-top:20%;
-    background-image: url("images/ljhslogo2.png");
-    background-size:150px;
-    display:block;
-    height: 150px;
-    text-indent: -99999px;
-    width:150px;
-    margin-top: 60px;
-    margin: auto;
-
-    @media (min-width: 768px){
-        display: none;
-    }
-}
 
 
 
