@@ -470,7 +470,8 @@ header{
 }
 
 .col-1 a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color:  #e64646;
 }
 
 .col-2{
@@ -491,6 +492,15 @@ header{
     line-height:25px;
 }
 
+.col-3 a{
+    color:white;
+    text-decoration: none;
+}
+
+.col-3 a:hover{
+    /* text-decoration:underline; */
+    color:  #e64646;
+}
 
 .instagramLogo i{
     font-size:40px;
@@ -511,17 +521,6 @@ header{
     color:  #e64646;
     transform: scale(1.05);
 }
-
-
-.col-3 a{
-    color:white;
-    text-decoration: none;
-}
-
-.col-3 a:hover{
-    text-decoration:underline;
-}
-
 
 .ljhsLogo{
     background-image: url("images/ljhslogo2.png");
