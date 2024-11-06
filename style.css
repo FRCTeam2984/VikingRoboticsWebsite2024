@@ -257,7 +257,7 @@ header{
     margin-right: 120px;
 }
 
-#aboutFIRSTlink:hover {
+a.aboutFirst:hover {
     color: red !important;
 }
 
