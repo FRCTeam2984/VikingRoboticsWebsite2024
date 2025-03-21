@@ -599,9 +599,9 @@ a#aboutFIRSTlink:hover {
     text-align: center;
 }
 
-.NASA{
+.first{
     color:white;
-    background-image: url("images/sponsorslogo/nasalogo.png");
+    background-image: url("images/sponsorslogo/first-logo.png");
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
@@ -612,7 +612,7 @@ a#aboutFIRSTlink:hover {
 
 .qualcomm{
     color:white;
-    background-image: url("images/sponsorslogo/qualcommlogo.png");
+    background-image: url("images/sponsorslogo/qualcomm-logo.png");
     background-size:300px;
     display:inline-block;
     text-indent: -99999px;
@@ -621,9 +621,9 @@ a#aboutFIRSTlink:hover {
     margin-top: 50px;
 }
 
-.lockheed{
+.sony{
     color:white;
-    background-image: url("images/sponsorslogo/lockheedlogo.png");
+    background-image: url("images/sponsorslogo/sony-logo.png");
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
@@ -632,9 +632,9 @@ a#aboutFIRSTlink:hover {
     margin-top: 50px;
 }
 
-.costco{
+.genehaas{
     color:white;
-    background-image: url("images/sponsorslogo/costcologo.png");
+    background-image: url("images/sponsorslogo/genehaas-logo.png");
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
@@ -643,7 +643,7 @@ a#aboutFIRSTlink:hover {
     margin-top: 50px;
 }
 
-.kiwanis{
+/* .kiwanis{
     color:white;
     background-image: url("images/sponsorslogo/kiwanislogo.png");
     background-size:250px;
@@ -652,11 +652,11 @@ a#aboutFIRSTlink:hover {
     width:250px;
     height: 50px;
     margin-top: 50px;
-}
+} */
 
-.errorFree{
+.hp{
     color:white;
-    background-image: url("images/sponsorslogo/freelogo2.png");
+    background-image: url("images/sponsorslogo/genehaas-logo.png");
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
