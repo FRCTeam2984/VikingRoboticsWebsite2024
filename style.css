@@ -605,8 +605,8 @@ a#aboutFIRSTlink:hover {
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
-    width:250px;
-    height: 250px;
+    /* width:250px;
+    height: 250px; */
     margin-top: 50px;
 }
 
@@ -616,8 +616,8 @@ a#aboutFIRSTlink:hover {
     background-size:300px;
     display:inline-block;
     text-indent: -99999px;
-    width:300px;
-    height: 200px;
+    /* width:300px;
+    height: 200px; */
     margin-top: 50px;
 }
 
@@ -627,8 +627,8 @@ a#aboutFIRSTlink:hover {
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
-    width:250px;
-    height: 250px;
+    /* width:250px;
+    height: 250px; */
     margin-top: 50px;
 }
 
@@ -638,8 +638,8 @@ a#aboutFIRSTlink:hover {
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
-    width:250px;
-    height: 100px;
+    /* width:250px;
+    height: 100px; */
     margin-top: 50px;
 }
 
@@ -660,8 +660,8 @@ a#aboutFIRSTlink:hover {
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
-    width:250px;
-    height: 150px;
+    /* width:250px;
+    height: 150px; */
     margin-top: 10px;
 }
 
@@ -671,8 +671,8 @@ a#aboutFIRSTlink:hover {
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
-    width:250px;
-    height: 50px;
+    /* width:250px;
+    height: 50px; */
     margin-top: 50px;
   
 }
@@ -683,8 +683,8 @@ a#aboutFIRSTlink:hover {
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
-    width:250px;
-    height: 70px;
+    /* width:250px;
+    height: 70px; */
     margin-top: 50px;
     margin-left: 20px;
   
