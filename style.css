@@ -599,7 +599,7 @@ a#aboutFIRSTlink:hover {
     text-align: center;
 }
 
-.first{
+.first-sponsor{
     color: white;
     background-image: url("images/sponsorslogo/first-logo.png");
     background-size: 250px;
@@ -612,7 +612,7 @@ a#aboutFIRSTlink:hover {
     height: 1038px;
 }
 
-.qualcomm{
+.qualcomm-sponsor{
     color: white;
     background-image: url("images/sponsorslogo/qualcomm-logo.png");
     background-size: 300px;
@@ -625,7 +625,7 @@ a#aboutFIRSTlink:hover {
     height: 189px;
 }
 
-.sony{
+.sony-sponsor{
     color: white;
     background-image: url("images/sponsorslogo/sony-logo.png");
     background-size: 250px;
@@ -638,7 +638,7 @@ a#aboutFIRSTlink:hover {
     height: 255px;
 }
 
-.genehaas{
+.genehaas-sponsor{
     color:white;
     background-image: url("images/sponsorslogo/genehaas-logo.png");
     background-size: 250px;
@@ -662,7 +662,7 @@ a#aboutFIRSTlink:hover {
     margin-top: 50px;
 } */
 
-.hp{
+.hp-sponsor{
     color:white;
     background-image: url("images/sponsorslogo/hp-logo.png");
     background-size: 250px;
@@ -675,7 +675,7 @@ a#aboutFIRSTlink:hover {
     height: 2160px;
 }
 
-.synopsys{
+.synopsys-sponsor{
     color: white;
     background-image: url("images/sponsorslogo/synopsys-logo.png");
     background-size: 250px;
