@@ -605,10 +605,10 @@ a#aboutFIRSTlink:hover {
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
-    /* width: 250px;
-    height: 250px; */
     margin-top: 50px;
     /* 200:173 */
+    width: 200px;
+    height: 173px;
 }
 
 .qualcomm{
@@ -617,10 +617,10 @@ a#aboutFIRSTlink:hover {
     background-size: 300px;
     display: inline-block;
     text-indent: -99999px;
-    /* width: 300px;
-    height: 200px; */
     margin-top: 50px;
     /* 1024:189 */
+    width: 256px;
+    height: 47.25px;
 }
 
 .sony{
@@ -629,10 +629,10 @@ a#aboutFIRSTlink:hover {
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
-    /* width: 250px;
-    height: 250px; */
     margin-top: 50px;
     /* 256:45 */
+    width: 256px;
+    height: 45px;
 }
 
 .genehaas{
@@ -641,10 +641,10 @@ a#aboutFIRSTlink:hover {
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
-    /* width: 250px;
-    height: 100px; */
     margin-top: 50px;
     /* 5:3 */
+    width: 250px;
+    height: 150px;
 }
 
 /* .kiwanis{
@@ -664,10 +664,10 @@ a#aboutFIRSTlink:hover {
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
-    /* width: 250px;
-    height: 150px; */
     margin-top: 10px;
     /* 16:9 */
+    width: 160px;
+    height: 90px;
 }
 
 .synopsys{
@@ -676,10 +676,10 @@ a#aboutFIRSTlink:hover {
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
-    /* width: 250px;
-    height: 50px; */
     margin-top: 50px;
     /* 128:29 */
+    width: 128px;
+    height: 29px;
 }
 
 .rsg{
@@ -688,11 +688,11 @@ a#aboutFIRSTlink:hover {
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
-    /* width: 250px;
-    height: 70px; */
     margin-top: 50px;
     margin-left: 20px;
     /* 470:171 */
+    width: 470px;
+    height: 171px;
 }
 
 .bcSponsor{
