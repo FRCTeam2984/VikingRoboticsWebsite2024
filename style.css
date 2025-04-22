@@ -587,9 +587,9 @@ a#aboutFIRSTlink:hover {
 .h-centered{
     color:white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    font-size:40px;
+    font-size: 40px;
     padding-bottom: 5px;
-    padding-top:50px;
+    padding-top: 50px;
     text-align:center;
 }
 
@@ -600,36 +600,36 @@ a#aboutFIRSTlink:hover {
 }
 
 .first{
-    color:white;
+    color: white;
     background-image: url("images/sponsorslogo/first-logo.png");
-    background-size:250px;
-    display:inline-block;
+    background-size: 250px;
+    display: inline-block;
     text-indent: -99999px;
-    /* width:250px;
+    /* width: 250px;
     height: 250px; */
     margin-top: 50px;
     /* 200:173 */
 }
 
 .qualcomm{
-    color:white;
+    color: white;
     background-image: url("images/sponsorslogo/qualcomm-logo.png");
-    background-size:300px;
-    display:inline-block;
+    background-size: 300px;
+    display: inline-block;
     text-indent: -99999px;
-    /* width:300px;
+    /* width: 300px;
     height: 200px; */
     margin-top: 50px;
     /* 1024:189 */
 }
 
 .sony{
-    color:white;
+    color: white;
     background-image: url("images/sponsorslogo/sony-logo.png");
-    background-size:250px;
-    display:inline-block;
+    background-size: 250px;
+    display: inline-block;
     text-indent: -99999px;
-    /* width:250px;
+    /* width: 250px;
     height: 250px; */
     margin-top: 50px;
     /* 256:45 */
@@ -638,10 +638,10 @@ a#aboutFIRSTlink:hover {
 .genehaas{
     color:white;
     background-image: url("images/sponsorslogo/genehaas-logo.png");
-    background-size:250px;
-    display:inline-block;
+    background-size: 250px;
+    display: inline-block;
     text-indent: -99999px;
-    /* width:250px;
+    /* width: 250px;
     height: 100px; */
     margin-top: 50px;
     /* 5:3 */
@@ -661,37 +661,38 @@ a#aboutFIRSTlink:hover {
 .hp{
     color:white;
     background-image: url("images/sponsorslogo/hp-logo.png");
-    background-size:250px;
-    display:inline-block;
+    background-size: 250px;
+    display: inline-block;
     text-indent: -99999px;
-    /* width:250px;
+    /* width: 250px;
     height: 150px; */
     margin-top: 10px;
+    /* 16:9 */
 }
 
 .synopsys{
-    color:white;
+    color: white;
     background-image: url("images/sponsorslogo/synopsys-logo.png");
-    background-size:250px;
-    display:inline-block;
+    background-size: 250px;
+    display: inline-block;
     text-indent: -99999px;
-    /* width:250px;
+    /* width: 250px;
     height: 50px; */
     margin-top: 50px;
-  
+    /* 128:29 */
 }
 
 .rsg{
-    color:white;
-    background-image: url("images/sponsorslogo/realsimgear-logo.webp");
-    background-size:250px;
-    display:inline-block;
+    color: white;
+    background-image: url("images/sponsorslogo/realsimgear-logo.png");
+    background-size: 250px;
+    display: inline-block;
     text-indent: -99999px;
-    /* width:250px;
+    /* width: 250px;
     height: 70px; */
     margin-top: 50px;
     margin-left: 20px;
-  
+    /* 470:171 */
 }
 
 .bcSponsor{
