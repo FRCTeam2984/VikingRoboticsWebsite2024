@@ -608,6 +608,7 @@ a#aboutFIRSTlink:hover {
     /* width:250px;
     height: 250px; */
     margin-top: 50px;
+    /* 200:173 */
 }
 
 .qualcomm{
@@ -619,6 +620,7 @@ a#aboutFIRSTlink:hover {
     /* width:300px;
     height: 200px; */
     margin-top: 50px;
+    /* 1024:189 */
 }
 
 .sony{
@@ -630,6 +632,7 @@ a#aboutFIRSTlink:hover {
     /* width:250px;
     height: 250px; */
     margin-top: 50px;
+    /* 256:45 */
 }
 
 .genehaas{
@@ -641,6 +644,7 @@ a#aboutFIRSTlink:hover {
     /* width:250px;
     height: 100px; */
     margin-top: 50px;
+    /* 5:3 */
 }
 
 /* .kiwanis{
@@ -656,7 +660,7 @@ a#aboutFIRSTlink:hover {
 
 .hp{
     color:white;
-    background-image: url("images/sponsorslogo/genehaas-logo.png");
+    background-image: url("images/sponsorslogo/hp-logo.png");
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
@@ -667,7 +671,7 @@ a#aboutFIRSTlink:hover {
 
 .synopsys{
     color:white;
-    background-image: url("images/sponsorslogo/synopsyslogo.png");
+    background-image: url("images/sponsorslogo/synopsys-logo.png");
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
@@ -679,7 +683,7 @@ a#aboutFIRSTlink:hover {
 
 .rsg{
     color:white;
-    background-image: url("images/sponsorslogo/RSGLogo.webp");
+    background-image: url("images/sponsorslogo/realsimgear-logo.webp");
     background-size:250px;
     display:inline-block;
     text-indent: -99999px;
