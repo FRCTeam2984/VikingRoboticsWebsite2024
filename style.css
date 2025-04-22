@@ -607,9 +607,8 @@ a#aboutFIRSTlink:hover {
     text-indent: -99999px;
     margin-top: 50px;
     /* 200:173 */
-    /* 1200 x 1038 */
-    width: 1200px;
-    height: 1038px;
+    width: 200px;
+    height: 173px;
 }
 
 .qualcomm{
@@ -620,9 +619,8 @@ a#aboutFIRSTlink:hover {
     text-indent: -99999px;
     margin-top: 50px;
     /* 1024:189 */
-    /* 1024 x 189  */
-    width: 1024px;
-    height: 189px;
+    width: 256px;
+    height: 47.25px;
 }
 
 .sony{
@@ -633,9 +631,8 @@ a#aboutFIRSTlink:hover {
     text-indent: -99999px;
     margin-top: 50px;
     /* 256:45 */
-    /* 1280 x 255 */
-    width: 1280px;
-    height: 255px;
+    width: 256px;
+    height: 45px;
 }
 
 .genehaas{
@@ -646,9 +643,8 @@ a#aboutFIRSTlink:hover {
     text-indent: -99999px;
     margin-top: 50px;
     /* 5:3 */
-    /* 1000 x 600 */
-    width: 1000px;
-    height: 600px;
+    width: 250px;
+    height: 150px;
 }
 
 /* .kiwanis{
@@ -670,9 +666,8 @@ a#aboutFIRSTlink:hover {
     text-indent: -99999px;
     margin-top: 10px;
     /* 16:9 */
-    /* 3840 x 2160 */
-    width: 3840px;
-    height: 2160px;
+    width: 160px;
+    height: 90px;
 }
 
 .synopsys{
@@ -683,12 +678,11 @@ a#aboutFIRSTlink:hover {
     text-indent: -99999px;
     margin-top: 50px;
     /* 128:29 */
-    /* 2560 x 580 */
-    width: 2560px;
-    height: 580px;
+    width: 128px;
+    height: 29px;
 }
 
-.rsg-sponsor{
+.rsg{
     color: white;
     background-image: url("images/sponsorslogo/realsimgear-logo.png");
     background-size: 250px;
@@ -697,9 +691,8 @@ a#aboutFIRSTlink:hover {
     margin-top: 50px;
     margin-left: 20px;
     /* 470:171 */
-    /* 1200 x 1038 */
-    width: 1200px;
-    height: 1038px;
+    width: 470px;
+    height: 171px;
 }
 
 .bcSponsor{
