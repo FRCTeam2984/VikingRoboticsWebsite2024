@@ -601,7 +601,7 @@ a#aboutFIRSTlink:hover {
 
 .first-sponsor{
     color: white;
-    background-image: url("images/sponsorslogo/first-logo.png");
+    /* background-image: url("images/sponsorslogo/first-logo.png"); */
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
@@ -613,7 +613,7 @@ a#aboutFIRSTlink:hover {
 
 .qualcomm-sponsor{
     color: white;
-    background-image: url("images/sponsorslogo/qualcomm-logo.png");
+    /* background-image: url("images/sponsorslogo/qualcomm-logo.png"); */
     background-size: 300px;
     display: inline-block;
     text-indent: -99999px;
@@ -625,7 +625,7 @@ a#aboutFIRSTlink:hover {
 
 .sony-sponsor{
     color: white;
-    background-image: url("images/sponsorslogo/sony-logo.png");
+    /* background-image: url("images/sponsorslogo/sony-logo.png"); */
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
@@ -637,7 +637,7 @@ a#aboutFIRSTlink:hover {
 
 .genehaas-sponsor{
     color:white;
-    background-image: url("images/sponsorslogo/genehaas-logo.png");
+    /* background-image: url("images/sponsorslogo/genehaas-logo.png"); */
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
@@ -660,7 +660,7 @@ a#aboutFIRSTlink:hover {
 
 .hp-sponsor{
     color:white;
-    background-image: url("images/sponsorslogo/hp-logo.png");
+    /* background-image: url("images/sponsorslogo/hp-logo.png"); */
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
@@ -672,7 +672,7 @@ a#aboutFIRSTlink:hover {
 
 .synopsys-sponsor{
     color: white;
-    background-image: url("images/sponsorslogo/synopsys-logo.png");
+    /* background-image: url("images/sponsorslogo/synopsys-logo.png"); */
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
@@ -684,7 +684,7 @@ a#aboutFIRSTlink:hover {
 
 .rsg-sponsor{
     color: white;
-    background-image: url("images/sponsorslogo/realsimgear-logo.png");
+    /* background-image: url("images/sponsorslogo/realsimgear-logo.png"); */
     background-size: 250px;
     display: inline-block;
     text-indent: -99999px;
